@@ -36,7 +36,7 @@ class Summarizer:
         return res_list
 
     @staticmethod
-    def get_report_from_cfg(task_cfg: Union[str, List[str], TaskConfig, List[TaskConfig], dict]) -> List[dict]:
+def get_report_from_cfg(task_cfg: Union[str, List[str], TaskConfig, List[TaskConfig], dict]) -> List[dict]:
         """
         Get report from cfg file.
 
